@@ -1,0 +1,55 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.header
+{
+display:flex;
+padding:2%;
+font-weight: bold;
+font-size: large;
+background-color: coral;
+justify-content: center;
+}
+.footer
+{
+display:flex;
+padding:1%;
+font-weight: bold;
+background-color: lightgreen;
+justify-content: center;
+}
+.middle
+{
+display:flex;
+background-color: deepskyblue;
+width: -webkit-fill-available;
+}
+.left{
+    background-color: yellow;
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+}
+.right{
+    background-color: pink;
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+}
+.first{
+    padding: 10px;
+    margin: 10px;
+    background: aqua ;
+}
+.second{
+    padding: 10px;
+    margin: 10px;
+    background: aqua ;
+}
+.third{
+    padding: 10px;
+    margin: 10px;
+    background: aqua ;
+}
